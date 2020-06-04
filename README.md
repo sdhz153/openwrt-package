@@ -6,7 +6,7 @@
 
 使用方法：
 
-添加 src-git lienol https://github.com/Lienol/openwrt-package 到 OpenWRT源码根目录feeds.conf.default文件
+添加 src-git lienol https://github.com/sdhz153/openwrt-package 到 OpenWRT源码根目录feeds.conf.default文件
 
 使用上面源码请忽略上一步
 
@@ -19,7 +19,7 @@
 或者你可以把该源码手动下载或Git Clone下载放到OpenWRT源码的Package目录里面，然后编译。
 如果你使用的是Luci19或更高，请编译时选上"luci","luci-compat","luci-lib-ipkg"后编译
 
-Add "src-git lienol https://github.com/Lienol/openwrt-package" to feeds.conf.default.
+Add "src-git lienol https://github.com/sdhz153/openwrt-package" to feeds.conf.default.
 
 ```bash
 ./scripts/feeds clean
